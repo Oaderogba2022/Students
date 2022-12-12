@@ -35,7 +35,7 @@ public class StudentApp extends Student {
         String address =  info4.toString();
         Student info4 = new Student();
         System.out.println("You entered: " + info4.getAddress());
-        info4.setAddress();
+        info4.setAddress() ;
 
         //Prompt user for filename
         Scanner keyboard = new Scanner(System.in);
